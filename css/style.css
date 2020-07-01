@@ -1,0 +1,177 @@
+.ColorPalette{
+    color: #eeeeee;
+    color: #060606;
+    color: #1fb622;
+    color: #cff0c5;
+    color: #aaaaaa;
+}
+
+/* Reset --------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Main Styling --------------------------------------------------------------------------------------------------*/
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0px;
+}
+
+/* Utilities --------------------------------------------------------------------------------------------------*/
+.container{
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto; /*?????????????????????????????????????????????*/
+    max-width: 1100px;
+}
+.CLR{
+    clear: both; /*??????????????????????????????????????????????????????????????????????????*/
+}
+.greenSpan{
+    color: #a3dd91;
+}
+.subtitle{
+    font-size: 20px;
+}
+.aBtn{
+    display: inline-block;
+    font-size: 18px;
+    color: #eee;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.aBtn:hover{
+    background-color: #1fb622;
+}
+.btn-lite{
+    background: #eeeeee;
+    color: #333;
+}
+.btn-lite:hover{
+    background: #1fb622;
+    color: #cff0c5;
+}
+
+.bg-lite{
+    background: #eee;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #eee;
+}
+.bg-green{
+    background: #1fb622;
+    color: #eee;
+}
+
+
+/* Navbar --------------------------------------------------------------------------------------------------*/
+#navbar{
+    background: #333;
+    color: white;
+    overflow: auto; /* So it doesn't go outside background ?????????????????????????????????????????????*/ 
+}
+#navbar a{
+    color: #eeeeee;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none; /*?????????????????????????????????????????????*/
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block; /* block element vs inline element */
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.currentPage{
+    background-color: #aaaaaa;
+    color: #cff0c5;
+}
+
+
+/* Showcase --------------------------------------------------------------------------------------------------*/
+#showcase{
+    background: url('../src/sun\ in\ the\ green.jpg') no-repeat top center/cover;
+    height: 700px;
+}
+
+#showcase .showcase-content{
+    color: #eee;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info -------------------------------------------------------------------------------------------------- */
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url("../src/street\ and\ rickshaw.jpg") no-repeat center center/cover;
+    /* background-size: 100% 100%; */
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+    line-height: 1.7em;
+}
+
+/* Features --------------------------------------------------------------------------------------------------*/
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+/* Footer --------------------------------------------------------------------------------------------------*/
+.main-footer{
+    text-align: center;
+    padding: 20px;
+}
